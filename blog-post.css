@@ -2,6 +2,7 @@
     /* Step 1: Set display to grid */
     display: grid;
     /* Step 2: setup rows amd columns */
+    grid-template-columns: 300px 350px;
     /* Step : setup named grid areas */
     border: 2px solid yellow;
 }
