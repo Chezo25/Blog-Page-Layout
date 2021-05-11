@@ -44,3 +44,10 @@ header navbar a:hover {
 section {
     padding: 20px;
 }
+
+.footer {
+    display: flex;
+    background-color: #444;
+    max-width: 90px;
+    height: auto;
+}
