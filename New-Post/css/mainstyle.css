@@ -6,6 +6,15 @@
     font-family: 'Poppins', Tahoma, Verdana, sans-serif;
 }
 
+a,
+p,
+h1,
+h2,
+h3,
+h5 {
+    color: #444;
+}
+
 .container {
     max-width: 900px;
     margin: auto;
