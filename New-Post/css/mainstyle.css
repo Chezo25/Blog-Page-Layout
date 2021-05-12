@@ -18,6 +18,8 @@ h5 {
 .container {
     max-width: 900px;
     margin: auto;
+    border-left: 1.5px solid coral;
+    border-right: 1.5px solid coral;
 }
 
 header {
@@ -74,16 +76,22 @@ aside ul li {
     font-size: 1.2rem;
     list-style: none;
     line-height: 1.6rem;
+    padding: 5px;
 }
 
 footer {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: auto;
     background-color: coral;
 }
 
-i {
-    justify-content: center;
-    align-items: center;
+footer a i {
+    color: white;
+    padding: 10px;
+}
+
+footer a i:hover {
+    color: teal;
 }
