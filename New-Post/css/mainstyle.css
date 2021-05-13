@@ -95,3 +95,15 @@ footer a i {
 footer a i:hover {
     color: teal;
 }
+
+@media (max-width: 900px) {
+    main {
+        float: none;
+        width: 100%;
+    }
+    aside {
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+}
