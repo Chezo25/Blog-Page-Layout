@@ -1,0 +1,31 @@
+navbar {
+    background-color: coral;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+.nav .nav-menu {
+    justify-content: space-between;
+}
+
+.nav .nav-items {
+    list-style-type: none;
+    display: flex;
+    margin: 1;
+    border: 1px solid red;
+}
+
+.nav .nav-items .nav-link {
+    padding: 1.6rem 1.2rem;
+    font-size: 1.2rem;
+    position: relative;
+    border: 1px solid blue;
+}
+
+.nav .nav-brand a {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+    display: block;
+}
